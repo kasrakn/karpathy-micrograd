@@ -1,6 +1,6 @@
 import graphviz
 
-from engine import Value
+from micrograd.engine import Value
 
 
 def trace(root) -> tuple[set[Value, set[Value]]]:
